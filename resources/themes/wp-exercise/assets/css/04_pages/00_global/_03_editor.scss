@@ -1,0 +1,88 @@
+%editor {
+
+  a:not(.wp-block-button__link) {
+    //
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  .wp-block-button {
+    //
+  }
+
+  .wp-block-button__link {
+    //
+  }
+
+  ul {
+    //
+  }
+
+  ol {
+    //
+  }
+
+  li {
+    //
+  }
+
+  ul > li {
+    &:before {
+      //
+    }
+  }
+
+  ol > li {
+    &:before {
+      //
+    }
+    @for $i from 1 through 30 {
+      &:nth-child(#{$i}):before {
+        content: "#{$i}.";
+      }
+    }
+  }
+
+  blockquote {
+    p {
+      //
+    }
+    cite {
+      //
+    }
+  }
+
+  .wp-block-table {
+    //
+  }
+
+  table {
+    //
+    @include sp() {
+      min-width: 100%;
+    }
+  }
+
+  tr {
+    //
+  }
+
+  thead tr {
+    //
+  }
+
+  th, td {
+    //
+  }
+
+  figcaption {
+    //
+  }
+
+  .wp-block-separator {
+    //
+  }
+
+}

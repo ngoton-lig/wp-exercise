@@ -1,0 +1,27 @@
+// breadcrumbs
+
+.breadcrumbs {
+    padding: 10px 0;
+}
+
+.breadcrumbs__list {
+    display: flex;
+}
+
+.breadcrumbs__item {
+    color: color(gray);
+
+    &:nth-child(n+2):before {
+        padding-left: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+
+    &.is-last {
+        color: color(black);
+    }
+}
+
+.breadcrumbs__link {
+    //
+}

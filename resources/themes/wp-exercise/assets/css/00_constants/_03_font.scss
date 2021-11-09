@@ -1,0 +1,32 @@
+$font-family: (
+        japanese-system: '"Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif',
+        yugo: '"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif',
+        helvetica: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+        noto-sans: '"Noto Sans JP", sans-serif',
+);
+
+$font: (
+        // baseの設定はhtml要素に適用されます
+        // サイトのベースになる設定をしてください
+        // spで変更になる箇所はspの中に指定してください
+        base: (
+                font-family: japanese-system,
+                font-size: 18px,
+                font-weight: 400,
+                line-height: 1,
+                letter-spacing: .03em,
+                sp: (
+                        font-size: 16px,
+                )
+        ),
+        // 各フォントの設定を配列にセットします
+        //heaading-1: (
+        //        font-size: 32px,
+        //        font-weight: 700,
+        //        line-height: 1.4,
+        //        letter-spacing: 0.1em,
+        //        sp: (
+        //                font-size: 24px,
+        //        )
+        //),
+);

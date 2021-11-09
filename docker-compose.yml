@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  mysql:
+    env_file: .env
+    build:
+      context: ./docker/mysql
+      args:
+        MYSQL_VER: ${MYSQL_VER}
+    cap_add:
+      - SYS_NICE
+    ports:
+      - 3306:3306
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d:rw
+    platform: linux/x86_64
+
+  web:
+    env_file: .env
+    build:
+      context: ./docker/apache
+      dockerfile: php-${PHP_VER}.Dockerfile
+      args:
+        PHP_VER: ${PHP_VER}
+    depends_on:
+      - mysql
+    ports:
+      - 80:80
+    links:
+      - mysql:mysql
+    volumes:
+      - ./wp:/var/www/html
+      - ./sql:/sql

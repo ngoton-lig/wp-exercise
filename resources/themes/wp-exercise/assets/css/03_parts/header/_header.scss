@@ -1,0 +1,36 @@
+// header
+
+.header {
+  width: 100%;
+  background-color: color(white);
+  z-index: 9999;
+
+  @include pc() {
+    position: fixed;
+  }
+}
+
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__title {
+  //
+}
+
+.header__title-link {
+  //
+}
+
+.header__title-logo {
+    //
+}
+
+.header-title__logo-image {
+  height: 30px;
+  width: 100px;
+}
+  

@@ -1,0 +1,168 @@
+//three point leader
+@mixin line-clamp($num, $num-sp: null) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $num;
+  overflow: hidden;
+
+  @if $num-sp {
+    @include mq {
+      -webkit-line-clamp: $num-sp;
+    }
+  }
+}
+
+// media query
+@mixin mq($mode:break, $type: max) {
+  $width: bp($mode);
+  @if $type == max {
+    $width: $width - 1;
+  }
+  @media (#{$type}-width: #{$width}px) {
+    @content;
+  }
+}
+
+@mixin mq_min($mode:break) {
+  @include mq($mode, min) {
+    @content;
+  }
+}
+
+//Alias of mq_min
+@mixin min($mode:break) {
+  @include mq_min($mode) {
+    @content;
+  }
+}
+
+@mixin mq_max($mode:break) {
+  @include mq($mode, max) {
+    @content;
+  }
+}
+
+//Alias of mq_max
+@mixin max($mode:break) {
+  @include mq_max($mode) {
+    @content;
+  }
+}
+
+@mixin mq_between($min-mode,$max-mode) {
+  $min: map-get($break-point, $min-mode);
+  $max: map-get($break-point, $max-mode);
+  $min-width: $min;
+  $max-width: $max - 1;
+  @media (min-width: #{$min-width}px) and (max-width: #{$max-width}px) {
+    @content;
+  }
+}
+
+//Alias of mq_between
+@mixin between($min-mode,$max-mode) {
+  @include mq_between($min-mode, $max-mode) {
+    @content;
+  }
+}
+
+@mixin pc($mode:break) {
+  @include mq_min($mode) {
+    @content;
+  }
+}
+
+@mixin sp($mode:break) {
+  @include mq_max($mode) {
+    @content;
+  }
+}
+
+// pseudo
+@mixin pseudo($mode:before,$root:&) {
+  #{$root}:#{$mode} {
+    content: "";
+    @content;
+  }
+}
+
+@mixin before($root:&) {
+  @include pseudo(before, $root) {
+    @content;
+  }
+}
+
+@mixin after($root:&) {
+  @include pseudo(after, $root) {
+    @content;
+  }
+}
+
+@mixin before_after($root:&) {
+  @include before($root) {
+    @content;
+  }
+  @include after($root) {
+    @content;
+  }
+}
+
+//font
+@mixin font($type:base) {
+  $target: map_get($font, $type);
+  $target-sp: if(map_has_key($target, sp), map_get($target, sp), null);
+
+  @if (map_has_key($target, font-family)) {
+    $target-font-family: map_get($target, font-family);
+    font-family: unquote(map_get($font-family, map_get($target, font-family)));
+  }
+  @if (map_has_key($target, font-size)) {
+    $target-font-size: map_get($target, font-size);
+    font-size: map_get($target, font-size);
+  }
+  @if (map_has_key($target, font-weight)) {
+    $target-font-weight: map_get($target, font-weight);
+    font-weight: map_get($target, font-weight);
+  }
+  @if (map_has_key($target, line-height)) {
+    $target-line-height: map_get($target, line-height);
+    line-height: map_get($target, line-height);
+  }
+  @if (map_has_key($target, letter-spacing)) {
+    $target-letter-spacing: map_get($target, letter-spacing);
+    letter-spacing: map_get($target, letter-spacing);
+  }
+
+  @if ($target-sp != null) {
+    @if (map_has_key($target-sp, font-family)) {
+      $target-sp-font-family: map_get($target-sp, font-family);
+      @include sp() {
+        font-family: unquote(map_get($font-family, map_get($target-sp, font-family)));
+      }
+    }
+    @if (map_has_key($target-sp, font-size)) {
+      $target-sp-font-size: map_get($target-sp, font-size);
+      @include sp() {
+        font-size: map_get($target-sp, font-size);
+      }
+    }
+    @if (map_has_key($target-sp, font-weight)) {
+      $target-sp-font-weight: map_get($target-sp, font-weight);
+      @include sp() {
+        font-weight: map_get($target-sp, font-weight);
+      }
+    }
+    @if (map_has_key($target-sp, line-height)) {
+      $target-sp-line-height: map_get($target-sp, line-height);
+      @include sp() {
+        line-height: map_get($target-sp, line-height);
+      }
+    }
+    @if (map_has_key($target-sp, letter-spacing)) {
+      $target-sp-letter-spacing: map_get($target-sp, letter-spacing);
+      @include sp() {
+        letter-spacing: map_get($target-sp, letter-spacing);
+      }
+    }
+  }
+}

@@ -1,0 +1,777 @@
+# Translation of Plugins - Query Monitor - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Query Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-17 01:01:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Query Monitor - Stable (latest release)\n"
+
+#: output/Html.php:114
+msgid "Filter"
+msgstr "フィルター"
+
+#: output/html/hooks.php:38 output/Html.php:143
+msgid "Callback"
+msgstr "コールバック"
+
+#: classes/QueryMonitor.php:52
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: output/html/block_editor.php:52
+msgid "Attributes"
+msgstr "属性"
+
+#: output/html/block_editor.php:51
+msgid "Block Name"
+msgstr "ブロック名"
+
+#: output/html/block_editor.php:25 output/html/block_editor.php:295
+msgid "Blocks"
+msgstr "ブロック"
+
+#: output/html/logger.php:180 output/raw/logger.php:18
+msgid "Logs"
+msgstr "ログ"
+
+#: output/html/environment.php:185
+msgid "Extension"
+msgstr "拡張機能"
+
+#: output/html/environment.php:184
+msgid "Server Version"
+msgstr "サーバーバージョン"
+
+#: output/html/assets.php:64
+msgid "Source"
+msgstr "ソース"
+
+#. translators: %s: Number of user capability checks
+#: output/html/caps.php:189
+msgctxt "User capability checks"
+msgid "Total: %s"
+msgid_plural "Total: %s"
+msgstr[0] "合計: %s"
+
+#. translators: %s: Total number of enqueued styles
+#: output/html/assets_styles.php:26
+msgctxt "Enqueued styles"
+msgid "Total: %s"
+msgstr "合計: %s"
+
+#. translators: %s: Total number of enqueued scripts
+#: output/html/assets_scripts.php:26
+msgctxt "Enqueued scripts"
+msgid "Total: %s"
+msgstr "合計: %s"
+
+#: dispatchers/Html.php:509
+msgid "Configuration"
+msgstr "設定"
+
+#: output/html/http.php:58
+msgid "URL"
+msgstr "URL"
+
+#: output/html/http.php:57
+msgid "Method"
+msgstr "メソッド"
+
+#: output/html/hooks.php:45 output/Html.php:142
+msgid "Priority"
+msgstr "優先度"
+
+#: output/html/environment.php:289
+msgid "OS"
+msgstr "OS"
+
+#: output/html/assets.php:62 output/html/environment.php:188
+#: output/html/environment.php:288
+msgid "Host"
+msgstr "ホスト"
+
+#: output/html/assets.php:47 output/html/assets.php:129
+msgid "Other"
+msgstr "その他"
+
+#: output/html/theme.php:203
+msgid "Template"
+msgstr "テンプレート"
+
+#. translators: %s: Approximate memory used in kilobytes
+#: output/html/timing.php:90 output/html/timing.php:122
+msgid "~%s kB"
+msgstr "~%s kB"
+
+#: output/html/timing.php:44
+msgid "Memory"
+msgstr "メモリ"
+
+#: output/html/request.php:151
+msgid "Current User"
+msgstr "現在のユーザー"
+
+#. translators: %s: List of PHP error types
+#. translators: %s: Number of errors
+#: output/html/php_errors.php:244 output/html/php_errors.php:289
+msgid "PHP Errors (%s)"
+msgstr "PHP エラー (%s)"
+
+#: output/html/logger.php:57 output/html/php_errors.php:55
+msgid "Message"
+msgstr "メッセージ"
+
+#: output/html/logger.php:55 output/html/php_errors.php:53
+msgid "Level"
+msgstr "レベル"
+
+#: output/html/languages.php:44
+msgid "Size"
+msgstr "サイズ"
+
+#: output/html/http.php:255
+msgid "IP Address"
+msgstr "IP アドレス"
+
+#: classes/QueryMonitor.php:51 dispatchers/Html.php:360
+#: dispatchers/Html.php:366 dispatchers/Html.php:421
+msgid "Settings"
+msgstr "設定"
+
+#: dispatchers/Html.php:368
+msgid "Close Panel"
+msgstr "パネルを閉じる"
+
+#: output/html/caps.php:83
+msgid "Result"
+msgstr "結果"
+
+#: output/html/environment.php:72 output/html/environment.php:187
+#: output/html/caps.php:79
+msgid "User"
+msgstr "ユーザー"
+
+#: output/html/db_queries.php:86
+msgid "Error Message"
+msgstr "エラーメッセージ"
+
+#: output/html/db_queries.php:87
+msgid "Error Code"
+msgstr "エラーコード"
+
+#: output/html/transients.php:43
+msgctxt "size of transient value"
+msgid "Size"
+msgstr "サイズ"
+
+#: output/html/http.php:60
+msgid "Status"
+msgstr "ステータス"
+
+#: output/html/environment.php:144
+msgid "Extensions"
+msgstr "拡張機能"
+
+#: output/html/db_queries.php:229 output/html/db_queries.php:412
+msgid "Main Query"
+msgstr "メインクエリー"
+
+#: output/html/assets.php:39
+msgid "Header"
+msgstr "ヘッダー"
+
+#: output/html/assets.php:40
+msgid "Footer"
+msgstr "フッター"
+
+#: output/html/admin.php:45 output/html/admin.php:67 output/html/headers.php:67
+msgid "Value"
+msgstr "値"
+
+#: output/html/theme.php:76
+msgid "Template Hierarchy"
+msgstr "テンプレート階層"
+
+#: output/html/assets.php:54
+msgid "Position"
+msgstr "位置"
+
+#: output/html/overview.php:262
+msgid "External object cache not in use"
+msgstr "使用されていない外部オブジェクトキャッシュ"
+
+#: output/html/assets.php:37
+msgid "Missing"
+msgstr "不明"
+
+#: output/html/admin.php:44
+msgid "Property"
+msgstr "プロパティ"
+
+#. translators: 1: Post type name, 2: Post ID
+#: collectors/request.php:223
+msgid "Single %1$s: #%2$d"
+msgstr "シングル %1$s: #%2$d"
+
+#: collectors/php_errors.php:325
+msgctxt "Suppressed PHP error level"
+msgid "Deprecated (Suppressed)"
+msgstr "非推奨 (抑制)"
+
+#: collectors/php_errors.php:324
+msgctxt "Suppressed PHP error level"
+msgid "Strict (Suppressed)"
+msgstr "Strict (抑制)"
+
+#: collectors/php_errors.php:322
+msgctxt "Suppressed PHP error level"
+msgid "Warning (Suppressed)"
+msgstr "警告 (抑制)"
+
+#. translators: %s: Memory usage in kilobytes
+#: output/html/overview.php:315
+msgctxt "Memory usage"
+msgid "%s kB"
+msgstr "%s kB"
+
+#: collectors/php_errors.php:323
+msgctxt "Suppressed PHP error level"
+msgid "Notice (Suppressed)"
+msgstr "Notice (抑制)"
+
+#. translators: %s: Page load time in seconds with a decimal fraction
+#: output/html/overview.php:310
+msgctxt "Page load time"
+msgid "%s S"
+msgstr "%s S"
+
+#. translators: %s: Number of database queries
+#: output/html/db_queries.php:487 output/html/db_queries.php:502
+msgctxt "Query count"
+msgid "%s Q"
+msgid_plural "%s Q"
+msgstr[0] "%s Q"
+
+#. translators: %s: Database query time in seconds
+#: output/html/db_queries.php:472
+msgctxt "Query time"
+msgid "%s S"
+msgid_plural "%s S"
+msgstr[0] "%s S"
+
+#. translators: %d: Multisite site ID
+#: collectors/request.php:143
+msgid "Current Site: #%d"
+msgstr "現在のサイト: #%d"
+
+#: collectors/php_errors.php:319
+msgctxt "PHP error level"
+msgid "Deprecated"
+msgstr "非推奨"
+
+#: collectors/php_errors.php:316
+msgctxt "PHP error level"
+msgid "Warning"
+msgstr "警告"
+
+#: collectors/php_errors.php:318
+msgctxt "PHP error level"
+msgid "Strict"
+msgstr "厳格"
+
+#: collectors/php_errors.php:317
+msgctxt "PHP error level"
+msgid "Notice"
+msgstr "注意"
+
+#. translators: %s: Hook name
+#: collectors/http.php:207
+msgid "Request not executed due to a filter on %s"
+msgstr "%s のフィルターによりリクエストが実行されませんでした"
+
+#. translators: Undefined PHP constant
+#: classes/Collector.php:81
+msgid "undefined"
+msgstr "未定義"
+
+#: output/html/overview.php:229 output/raw/cache.php:18
+msgid "Object Cache"
+msgstr "オブジェクトキャッシュ"
+
+#: output/html/overview.php:257
+msgid "External object cache in use"
+msgstr "未使用の外部オブジェクトキャッシュ"
+
+#: output/html/theme.php:83
+msgid "Template Parts"
+msgstr "テンプレートパーツ"
+
+#. translators: An HTTP API request has disabled certificate verification. 1:
+#. Relevant argument name
+#: output/html/http.php:112
+msgid "Certificate verification disabled (%s)"
+msgstr "証明書検証を無効化 (%s)"
+
+#: output/html/db_dupes.php:46
+msgid "Components"
+msgstr "コンポーネント"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:156
+msgid "MU Plugin: %s"
+msgstr "MU プラグイン: %s"
+
+#. translators: %s: Number of calls to a PHP function
+#: output/html/db_dupes.php:56
+msgid "%s call"
+msgid_plural "%s calls"
+msgstr[0] "%s件のコール"
+
+#: output/html/db_dupes.php:44
+msgid "Callers"
+msgstr "呼び出し元"
+
+#: output/html/db_dupes.php:26
+msgid "Duplicate Queries"
+msgstr "重複クエリ"
+
+#: output/html/db_dupes.php:48
+msgid "Potential Troublemakers"
+msgstr "潜在的脅威"
+
+#. translators: %s: Number of duplicate database queries
+#: output/html/db_dupes.php:131
+msgid "Duplicate Queries (%s)"
+msgstr "重複クエリー (%s)"
+
+#: output/html/php_errors.php:132
+msgid "Unknown location"
+msgstr "不明な位置"
+
+#: output/html/theme.php:118 output/html/theme.php:143
+#: output/html/languages.php:80 output/html/db_callers.php:101
+#: output/html/overview.php:220
+msgid "None"
+msgstr "なし"
+
+#: output/html/environment.php:171 output/html/environment.php:189
+msgid "Database"
+msgstr "データベース"
+
+#. translators: %s: Name of database controller
+#: output/html/environment.php:174
+msgid "Database: %s"
+msgstr "データベース: %s"
+
+#: output/html/environment.php:287
+msgid "Address"
+msgstr "アドレス"
+
+#: output/html/environment.php:285
+msgid "Software"
+msgstr "ソフトウェア"
+
+#: output/html/languages.php:40
+msgid "Text Domain"
+msgstr "テキストドメイン"
+
+#: output/html/languages.php:25
+msgid "Languages"
+msgstr "言語"
+
+#: output/html/languages.php:89
+msgid "Not Found"
+msgstr "見つかりませんでした"
+
+#: classes/Util.php:295
+msgid "Unable to determine source of lambda function"
+msgstr "ラムダ関数のソースを確定できません。"
+
+#. translators: %s: Name of database controller
+#: output/html/db_queries.php:552
+msgid "Queries: %s"
+msgstr "クエリー: %s"
+
+#: output/html/languages.php:41
+msgid "Type"
+msgstr "タイプ"
+
+#: output/html/request.php:163
+msgid "Multisite"
+msgstr "マルチサイト"
+
+#. Author of the plugin
+msgid "John Blackbourn"
+msgstr "John Blackbourn"
+
+#. translators: %s: Template file name
+#: output/html/theme.php:192
+msgid "Template: %s"
+msgstr "テンプレート: %s"
+
+#: output/html/theme.php:165
+msgid "Body Classes"
+msgstr "body クラス"
+
+#: output/html/transients.php:42
+msgid "Expiration"
+msgstr "有効期限"
+
+#: output/html/request.php:40
+msgid "Matched Query"
+msgstr "一致したクエリ"
+
+#: output/html/request.php:139
+msgid "Queried Object"
+msgstr "照会されたオブジェクト"
+
+#: output/html/request.php:41
+msgid "Query String"
+msgstr "クエリ文字列"
+
+#: output/html/request.php:89
+msgid "Query Vars"
+msgstr "クエリ変数"
+
+#. translators: %s: Number of additional query variables
+#: output/html/request.php:208
+msgid "Request (+%s)"
+msgstr "リクエスト (+%s)"
+
+#: output/html/theme.php:50
+msgid "Template File"
+msgstr "テンプレートファイル"
+
+#. translators: %s: Symlink file location
+#: classes/QueryMonitor.php:159
+msgid "The symlink at %s is no longer pointing to the correct location. Please remove the symlink, then deactivate and reactivate Query Monitor."
+msgstr "%s にあるシンボリックリンクは現在正しい場所を指していません。シンボリックリンクを削除してから、Query Monitor を無効化し再有効化してください。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://querymonitor.com/"
+msgstr "https://querymonitor.com/"
+
+#: output/html/environment.php:48 output/html/environment.php:260
+msgid "Help"
+msgstr "ヘルプ"
+
+#: output/html/theme.php:65 output/html/theme.php:186
+#: output/html/php_errors.php:157 output/html/db_queries.php:334
+#: output/html/db_queries.php:431 output/html/overview.php:117
+#: output/html/environment.php:76 output/html/environment.php:198
+#: output/html/environment.php:301 output/headers/php_errors.php:42
+#: classes/Util.php:209
+msgid "Unknown"
+msgstr "不明"
+
+#: output/html/http.php:66
+msgid "Timeout"
+msgstr "タイムアウト"
+
+#: output/html/db_dupes.php:43 output/html/php_errors.php:56
+msgid "Count"
+msgstr "数"
+
+#: output/html/http.php:44
+msgid "Error"
+msgstr "エラー"
+
+#: output/html/transients.php:69 output/html/request.php:54
+#: output/html/request.php:131 output/html/request.php:148
+#: output/html/request.php:159
+msgid "none"
+msgstr "なし"
+
+#: output/html/assets_scripts.php:20 output/html/assets_scripts.php:27
+msgid "Scripts"
+msgstr "スクリプト"
+
+#: output/html/assets_styles.php:20 output/html/assets_styles.php:27
+msgid "Styles"
+msgstr "スタイル"
+
+#: output/html/assets.php:71 output/html/environment.php:54
+#: output/html/environment.php:249 output/html/environment.php:286
+msgid "Version"
+msgstr "バージョン"
+
+#: output/html/environment.php:25
+msgid "Environment"
+msgstr "環境"
+
+#: output/html/php_errors.php:57
+msgid "Location"
+msgstr "場所"
+
+#: output/html/environment.php:282
+msgid "Server"
+msgstr "サーバー"
+
+#: output/html/theme.php:26 output/html/theme.php:39 classes/Util.php:187
+msgid "Theme"
+msgstr "テーマ"
+
+#. translators: %s: Error message text
+#: output/html/block_editor.php:236 output/html/hooks.php:169
+msgid "Error: %s"
+msgstr "エラー: %s"
+
+#: output/html/db_queries.php:124 output/html/db_queries.php:260
+#: output/html/db_callers.php:52 output/html/http.php:67
+#: output/html/db_components.php:53 output/html/timing.php:43
+msgid "Time"
+msgstr "時刻"
+
+#: output/html/db_queries.php:121 output/html/db_queries.php:255
+msgid "Rows"
+msgstr "行"
+
+#: output/html/db_queries.php:79
+msgid "Database Errors"
+msgstr "データベースエラー"
+
+#. translators: %s: Memory used in kilobytes
+#: output/html/overview.php:121 output/headers/overview.php:35
+msgid "%s kB"
+msgstr "%s kB"
+
+#: output/html/hooks.php:43 output/Html.php:141
+msgid "Hook"
+msgstr "フック"
+
+#: output/html/db_queries.php:561
+msgid "Queries"
+msgstr "クエリ"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:159
+msgid "Plugin: %s"
+msgstr "プラグイン: %s"
+
+#. translators: %s: Plugin name
+#: classes/Util.php:179
+msgid "VIP Plugin: %s"
+msgstr "VIP プラグイン: %s"
+
+#: output/html/hooks.php:63 output/Html.php:264 classes/Util.php:205
+msgid "Core"
+msgstr "コア"
+
+#: output/Html.php:278
+msgctxt "\"All\" option for filters"
+msgid "All"
+msgstr "すべて"
+
+#. translators: 1: Percentage of memory limit used, 2: Memory limit in
+#. kilobytes
+#: output/headers/overview.php:40
+msgid "%1$s%% of %2$s kB limit"
+msgstr "%2$s kb 制限中%1$s%% kb"
+
+#. translators: 1: Percentage of time limit used, 2: Time limit in seconds
+#: output/html/overview.php:94 output/headers/overview.php:27
+msgid "%1$s%% of %2$ss limit"
+msgstr "%2$s秒制限中%1$s%%秒"
+
+#. translators: %s: Name of missing script or style dependency
+#: output/html/assets.php:120
+msgid "%s (missing)"
+msgstr "%s (欠損)"
+
+#. translators: %s: Name of database controller
+#: output/html/db_queries.php:156
+msgid "%s Queries"
+msgstr "%s クエリー"
+
+#: output/html/admin.php:25
+msgid "Admin Screen"
+msgstr "管理画面"
+
+#. translators: 1: Line number, 2: File name
+#: classes/Util.php:290
+msgid "Anonymous function on line %1$d of %2$s"
+msgstr "%2$s内%1$d行目の匿名関数"
+
+#: dispatchers/Html.php:425
+msgid "Authentication"
+msgstr "認証"
+
+#. translators: %s: Author name
+#: collectors/request.php:233
+msgid "Author archive: %s"
+msgstr "投稿者アーカイブ: %s"
+
+#: output/html/logger.php:58 output/html/transients.php:44
+#: output/html/languages.php:42 output/html/db_queries.php:84
+#: output/html/db_queries.php:114 output/html/db_queries.php:235
+#: output/html/db_callers.php:43 output/html/http.php:62
+#: output/html/caps.php:85
+msgid "Caller"
+msgstr "呼び出し元"
+
+#: classes/Util.php:185
+msgid "Child Theme"
+msgstr "子テーマ"
+
+#: dispatchers/Html.php:416
+msgid "Clear authentication cookie"
+msgstr "明確な認証 Cookie をクリア"
+
+#. translators: 1: Line number, 2: File name
+#: classes/Util.php:266
+msgid "Closure on line %1$d of %2$s"
+msgstr "%2$s内%1$d行目のクロージャ"
+
+#: output/html/logger.php:60 output/html/transients.php:45
+#: output/html/php_errors.php:59 output/html/db_queries.php:85
+#: output/html/db_queries.php:117 output/html/db_queries.php:244
+#: output/html/http.php:64 output/html/hooks.php:48
+#: output/html/db_components.php:44 output/html/timing.php:45
+#: output/html/caps.php:87 output/Html.php:144
+msgid "Component"
+msgstr "コンポーネント"
+
+#: output/html/conditionals.php:26 output/html/conditionals.php:90
+#: output/raw/conditionals.php:18
+msgid "Conditionals"
+msgstr "条件文"
+
+#. translators: %s: Number of database errors
+#: output/html/db_queries.php:574
+msgid "Database Errors (%s)"
+msgstr "データベースエラー (%s)"
+
+#: output/html/db_queries.php:30 output/html/overview.php:170
+#: output/raw/db_queries.php:20
+msgid "Database Queries"
+msgstr "データベースクエリー"
+
+#: output/html/assets.php:66
+msgid "Dependencies"
+msgstr "依存"
+
+#: output/html/assets.php:69
+msgid "Dependents"
+msgstr "依存先"
+
+#: output/html/request.php:39
+msgid "Matched Rule"
+msgstr "一致したルール"
+
+#. translators: %s: Original value of a variable
+#: output/html/environment.php:106
+msgid "Overridden at runtime from %s"
+msgstr "実行時に %s により上書き"
+
+#: output/html/overview.php:25 dispatchers/Html.php:337
+#: dispatchers/Html.php:379
+msgid "Overview"
+msgstr "概要"
+
+#: dispatchers/Html.php:209
+msgid "PHP Errors in Ajax Response"
+msgstr "AJAX レスポンス内の PHP エラー"
+
+#: output/html/php_errors.php:27 output/html/php_errors.php:255
+msgid "PHP Errors"
+msgstr "PHP エラー"
+
+#: output/html/overview.php:82
+msgid "Page Generation Time"
+msgstr "ページ生成時間"
+
+#: output/html/theme.php:43 classes/Util.php:192
+msgid "Parent Theme"
+msgstr "親テーマ"
+
+#: output/html/overview.php:113
+msgid "Peak Memory Usage"
+msgstr "最大メモリ使用量"
+
+#. translators: %s: Post type name
+#: collectors/request.php:253
+msgid "Post type archive: %s"
+msgstr "投稿タイプアーカイブ：%s"
+
+#: output/html/db_callers.php:25 output/html/db_callers.php:115
+msgid "Queries by Caller"
+msgstr "呼び出し元ごとのクエリー"
+
+#: output/html/db_components.php:25 output/html/db_components.php:112
+msgid "Queries by Component"
+msgstr "コンポーネントごとのクエリー"
+
+#: output/html/db_dupes.php:42 output/html/db_queries.php:83
+#: output/html/db_queries.php:113 output/html/db_queries.php:222
+msgid "Query"
+msgstr "クエリー"
+
+#. Plugin Name of the plugin
+#: classes/QueryMonitor.php:171 classes/QueryMonitor.php:202
+#: dispatchers/WP_Die.php:136 dispatchers/Html.php:109 dispatchers/Html.php:330
+#: dispatchers/Html.php:662 collectors/php_errors.php:294
+msgid "Query Monitor"
+msgstr "Query Monitor"
+
+#: output/html/request.php:25 output/html/request.php:38
+#: output/html/request.php:206
+msgid "Request"
+msgstr "リクエスト"
+
+#: collectors/http.php:243
+msgid "Request timed out"
+msgstr "要求タイムアウト"
+
+#: output/html/request.php:138
+msgid "Response"
+msgstr "返答"
+
+#: dispatchers/Html.php:417
+msgid "Set authentication cookie"
+msgstr "認証 Cookie を設定"
+
+#. translators: %s: Database query time in seconds
+#: output/html/db_queries.php:106
+msgid "Slow Database Queries (above %ss)"
+msgstr "遅いデータベースクエリー (%s秒以上)"
+
+#. translators: %s: Number of slow database queries
+#: output/html/db_queries.php:588
+msgid "Slow Queries (%s)"
+msgstr "遅いクエリー (%s)"
+
+#. translators: %s: Taxonomy term name
+#: collectors/request.php:243
+msgid "Term archive: %s"
+msgstr "タームアーカイブ : %s"
+
+#: output/html/transients.php:25 output/raw/transients.php:18
+msgid "Transients"
+msgstr "Transient"
+
+#: collectors/request.php:260
+msgid "Unknown queried object"
+msgstr "不明な照会オブジェクト"
+
+#. translators: %s: Action name
+#: output/html/hooks.php:117
+msgid "Warning: The %s action is extremely resource intensive. Try to avoid using it."
+msgstr "警告: %s アクションは非常にリソースを消費します。避けるようにしてください。"
+
+#: dispatchers/WP_Die.php:131 collectors/php_errors.php:279
+msgid "Call stack:"
+msgstr "コールスタック:"
+
+#: output/html/admin.php:103
+msgid "Column Action:"
+msgstr "カラム操作:"
+
+#: output/html/hooks.php:38 output/Html.php:110
+msgid "Action"
+msgstr "操作"

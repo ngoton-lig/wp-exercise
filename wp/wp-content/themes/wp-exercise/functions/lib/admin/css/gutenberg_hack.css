@@ -1,0 +1,51 @@
+/**
+ * テーブルのセクション非表示
+ */
+.blocks-table-settings {
+    display: none;
+}
+
+/**
+* 画像サイズ
+ */
+.block-editor-image-size-control {
+    display: none;
+}
+
+/**
+h1とh6を削除
+ */
+
+.is-heading .block-library-heading-level-dropdown .components-toolbar-group button:first-child,
+.is-heading .block-library-heading-level-dropdown .components-toolbar-group button:last-child
+{
+    display: none !important;
+}
+
+/**
+ドロップキャップを非表示
+ */
+.is-paragraph .block-editor-block-card + div {
+    display: none !important;
+}
+
+/**
+ボタンの枠線を非表示
+ */
+.is-button .block-editor-block-card + div > .components-panel__body {
+    display: none !important;
+}
+
+/**
+ファイルのオプション群を非表示
+ */
+.is-file .block-editor-block-card + div {
+    display: none !important;
+}
+
+/**
+テーブルの色選択を非表示
+ */
+.is-table .block-editor-block-card + div {
+    display: none !important;
+}

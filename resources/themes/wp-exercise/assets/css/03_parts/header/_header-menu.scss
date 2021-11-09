@@ -1,0 +1,31 @@
+// header menu
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.header-menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu__item {
+    margin: 0 20px;
+}
+
+.header-menu__link {
+    //
+    &.is-current {
+        color: color(gray);
+        text-decoration: underline;
+        text-underline-position: under;
+        text-underline-offset: 2px;
+        text-decoration-color: color(black);
+        text-decoration-thickness: 2px;
+    }
+}
+
+.header-menu__text {
+    //
+}

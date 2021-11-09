@@ -1,0 +1,24 @@
+// classes
+
+.pc-flex {
+  @include pc() {
+    display: flex;
+  }
+}
+
+.sp-flex {
+  @include sp() {
+    display: flex;
+  }
+}
+
+.obj-fit {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &--contain {
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,9 @@
+.l-index {
+  position: relative;
+  min-height: 800px;
+  background-color: color(white-smoke);
+
+  @include pc() {
+    padding-top: 70px;
+  }
+}

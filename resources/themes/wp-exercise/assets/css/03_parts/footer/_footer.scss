@@ -1,0 +1,37 @@
+// footer
+
+.footer {
+  position: relative;
+  background-color: color(black);
+}
+
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__logo {
+  padding: 20px 0;
+
+  svg {
+    color: color(white);
+    width: 100px;
+    height: 30px;
+  }
+}
+
+.footer__sns-menu {
+  //
+}
+
+.footer__copy {
+    //
+}
+
+.footer__copy-text {
+    color: color(white);
+}
