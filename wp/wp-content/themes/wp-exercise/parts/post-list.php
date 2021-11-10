@@ -10,16 +10,8 @@ $article = [
     'tag_taxonomy' => $post_type.'-tag',
 ];
 
-$args = array(
-    'post_type' => $post_type,
-    'post_status' => 'publish',
-    'posts_per_page' => $post_number,
-    'paged' => get_query_var( 'paged', 1),
-    'orderby' => 'post_date',
-    'order' => 'DESC',
-);
 global $wp_query;
-$wp_query = new WP_Query( $args );
+$wp_query = post_list($post_type, $post_number);
 
 if ($wp_query->have_posts()):
 ?>

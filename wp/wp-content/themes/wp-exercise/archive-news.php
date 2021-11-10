@@ -7,9 +7,13 @@ $breadcrumbs = [
     ],
     [
         'text' => $queried_object->label,
-        'href' => null
+        'href' => get_post_type_archive_link($queried_object->name)
     ],
 ];
+
+if (get_query_var('paged')) {
+    $breadcrumbs = array_merge($breadcrumbs, [['text' => 'page '.get_query_var('paged'), 'href' => null]]);
+}
 
 $page_header = [
     'title' => get_the_title(),
