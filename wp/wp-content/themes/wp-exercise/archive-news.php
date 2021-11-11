@@ -30,7 +30,9 @@ get_header();
                 <?php wp_dropdown_categories(
                         ['taxonomy' => 'news-category',
                         'show_option_all' => 'Category',
-                        'value_field' => 'slug', 'name' => 'select-category',
+                        'value_field' => 'slug',
+                        'name' => 'select-category',
+                        'selected' => $_GET['select-category'],
                         'id' => 'js-select-category']); ?>
                 <select name="select-year" id="js-select-year">
                     <option>Year</option>

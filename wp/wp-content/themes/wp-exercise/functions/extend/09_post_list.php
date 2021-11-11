@@ -1,5 +1,5 @@
 <?php
-function post_list($post_type, $post_number) {
+function post_list($post_type, $post_number, $taxonomy, $term = null, $year = null) {
     $args = array(
         'post_type' => $post_type,
         'post_status' => 'publish',
@@ -8,6 +8,18 @@ function post_list($post_type, $post_number) {
         'orderby' => 'post_date',
         'order' => 'DESC',
     );
+    if ($term) {
+        $args['tax_query'] = [[
+            'taxonomy' => $taxonomy,
+            'field' => 'slug',
+            'terms' => [$term],
+        ]];
+    }
+    if ($year) {
+        $args['date_query'] = [[
+            'year' => $year,
+        ]];
+    }
     $query = new WP_Query( $args );
     return $query;
 }

@@ -10,8 +10,12 @@ $article = [
     'tag_taxonomy' => $post_type.'-tag',
 ];
 
+$term = isset($_GET['select-category']) && $_GET['select-category']!='0' ? $_GET['select-category'] : null;
+$select_year = explode('/', $_GET['select-year']);
+$year = isset($select_year[3]) ? (int)$select_year[3] : null;
+
 global $wp_query;
-$wp_query = post_list($post_type, $post_number);
+$wp_query = post_list($post_type, $post_number, $post_type.'-category', $term, $year);
 
 if ($wp_query->have_posts()):
 ?>
