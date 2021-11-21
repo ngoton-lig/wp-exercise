@@ -2,14 +2,11 @@
 get_header();
 ?>
 <main class="l-index">
-    <div class="l-index-featured-news-section">
-        <?php import_part('featured-news') ?>
+    <div class="l-index-featured-products-section">
+        <?php import_part('featured-products') ?>
     </div>
-    <div class="l-index-news-section">
-        <?php import_part('news') ?>
-    </div>
-    <div class="l-index-event-section">
-        <?php import_part('event') ?>
+    <div class="l-index-featured-services-section">
+        <?php import_part('featured-services') ?>
     </div>
 </main>
 <?php

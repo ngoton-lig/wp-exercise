@@ -44,29 +44,15 @@ add_action('init', function () {
     define('NAME_HOME', 'HOME');
 
     //post type
-//    define('URL_NEWS', URL_HOME . 'news/');
-//    define('NAME_NEWS', 'NEWS');
-//
-//    define('URL_ABOUT', URL_HOME . 'about/');
-//    define('NAME_ABOUT', 'ABOUT');
-//
-//    define('URL_SERVICE', URL_HOME . 'service/');
-//    define('NAME_SERVICE', 'SERVICE');
-//
-//    define('URL_CASE', URL_HOME . 'case/');
-//    define('NAME_CASE', 'CASE');
-//
-//    define('URL_RECRUIT', URL_HOME . 'recruit/');
-//    define('NAME_RECRUIT', 'RECRUIT');
-//
-//    define('URL_CONTACT', URL_HOME . 'contact/');
-//    define('NAME_CONTACT', 'CONTACT');
-//
-//    define('URL_CONFIRM', URL_CONTACT . 'confirm/');
-//    define('URL_COMPLETE', URL_CONTACT . 'complete/');
-//
-//    define('URL_PRIVACY', URL_HOME . 'privacy/');
-//    define('NAME_PRIVACY', 'PRIVACY');
+    define('PRODUCTS_POST_TYPE', 'products');
+    define('PRODUCTS_POST_TYPE_LABEL', 'Products');
+    define('PRODUCTS_TAX_CATEGORY', 'products-category');
+    define('PRODUCTS_TAX_CATEGORY_LABEL', 'Categories');
+
+    define('SERVICES_POST_TYPE', 'services');
+    define('SERVICES_POST_TYPE_LABEL', 'Services');
+    define('SERVICES_TAX_CATEGORY', 'services-category');
+    define('SERVICES_TAX_CATEGORY_LABEL', 'Categories');
 
     /*
     define('URL_', URL_HOME . '/');
