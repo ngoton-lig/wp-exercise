@@ -9,19 +9,17 @@ extract(import_vars_whitelist(get_defined_vars()));
         $featured_query = featured_services();
 
         if ($featured_query->have_posts()):
-            if ($featured_query->post_count >= 3):
         ?>
             <ul class="article-list">
                 <?php while ($featured_query->have_posts()) : $featured_query->the_post(); ?>
                     <li class="article-list__item">
                         <?php
-                        import_part('article', ['post' => $post]);
+                        import_part('article-service', ['post' => $post]);
                         ?>
                     </li>
                 <?php endwhile; ?>
             </ul>
         <?php
-            endif;
             wp_reset_postdata();
         endif;
         ?>
